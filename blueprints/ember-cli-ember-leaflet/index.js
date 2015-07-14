@@ -4,8 +4,8 @@ module.exports = {
     // not specified (since that doesn't actually matter
     // to us
   },
-  
+
   afterInstall: function() {
-    return this.addBowerPackageToProject('ember-leaflet', 'ember-cli-es6');
+    return this.addPackageToProject('https://github.com/gabesmed/ember-leaflet.git#ember-cli-es6');
   }
 };
